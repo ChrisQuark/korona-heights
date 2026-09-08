@@ -723,7 +723,7 @@
       "name": "Public road",
       "width": 6,
       "kind": "main",
-      "source": "Binder sheet 2: public road above plots 5\u20136 and east of plots 5\u20134, continuing between plots 3\u20134 and 1\u20132. Centreline interpreted within the drawn reservation.",
+      "source": "Binder sheet 2: public road above plots 5–6 and east of plots 5–4, continuing between plots 3–4 and 1–2. Centreline interpreted within the drawn reservation.",
       "centerline": [
         [
           -80,
@@ -899,206 +899,217 @@
       "id": "P6-01",
       "plot": 6,
       "number": 1,
-      "x": -34,
-      "z": -39.3,
+      "x": -34.0,
+      "z": -39.000798,
       "rotation": 0,
       "origin": [
         -38.55,
         -35.3
-      ]
+      ],
+      "name": "Olive House"
     },
     {
       "id": "P6-02",
       "plot": 6,
       "number": 2,
-      "x": -18,
-      "z": -39.3,
+      "x": -18.0,
+      "z": -39.000798,
       "rotation": 0,
       "origin": [
         -22.55,
         -35.3
-      ]
+      ],
+      "name": "Cypress House"
     },
     {
       "id": "P6-03",
       "plot": 6,
       "number": 3,
-      "x": -2,
-      "z": -39.3,
+      "x": -2.0,
+      "z": -39.000798,
       "rotation": 0,
       "origin": [
         -6.55,
         -35.3
-      ]
+      ],
+      "name": "Juniper House"
     },
     {
       "id": "P5-01",
       "plot": 5,
       "number": 1,
-      "x": 15,
-      "z": -39.3,
+      "x": 15.0,
+      "z": -39.000798,
       "rotation": 0,
       "origin": [
         10.45,
         -35.3
-      ]
+      ],
+      "name": "Cedar House"
     },
     {
       "id": "P5-02",
       "plot": 5,
       "number": 2,
-      "x": 30,
-      "z": -39.3,
+      "x": 30.0,
+      "z": -39.000798,
       "rotation": 0,
       "origin": [
         25.45,
         -35.3
-      ]
+      ],
+      "name": "Laurel House"
     },
     {
       "id": "P5-03",
       "plot": 5,
       "number": 3,
-      "x": 45,
-      "z": -39.3,
+      "x": 45.0,
+      "z": -39.000798,
       "rotation": 0,
       "origin": [
         40.45,
         -35.3
-      ]
+      ],
+      "name": "Myrtle House"
     },
     {
       "id": "P3-01",
       "plot": 3,
       "number": 1,
-      "x": -41,
-      "z": -13.8,
+      "x": -41.0,
+      "z": -13.500798,
       "rotation": 0,
       "origin": [
         -45.55,
         -9.8
-      ]
+      ],
+      "name": "Sage House"
     },
     {
       "id": "P3-02",
       "plot": 3,
       "number": 2,
       "x": -23.8,
-      "z": -13.8,
+      "z": -13.500798,
       "rotation": 0,
       "origin": [
         -28.35,
         -9.8
-      ]
+      ],
+      "name": "Rosemary House"
     },
     {
       "id": "P4-01",
       "plot": 4,
       "number": 1,
-      "x": -3.8,
-      "z": -13.8,
+      "x": -2.0,
+      "z": -13.500798,
       "rotation": 0,
       "origin": [
-        -8.35,
+        -6.55,
         -9.8
-      ]
+      ],
+      "name": "Almond House"
     },
     {
       "id": "P4-02",
       "plot": 4,
       "number": 2,
-      "x": 8.8,
-      "z": -13.8,
+      "x": 14.0,
+      "z": -13.500798,
       "rotation": 0,
       "origin": [
-        4.25,
+        9.45,
         -9.8
-      ]
+      ],
+      "name": "Fig House"
     },
     {
       "id": "P4-03",
       "plot": 4,
       "number": 3,
-      "x": 21.4,
-      "z": -13.8,
+      "x": 30.0,
+      "z": -13.500798,
       "rotation": 0,
       "origin": [
-        16.85,
+        25.45,
         -9.8
-      ]
-    },
-    {
-      "id": "P4-04",
-      "plot": 4,
-      "number": 4,
-      "x": 34,
-      "z": -13.8,
-      "rotation": 0,
-      "origin": [
-        29.45,
-        -9.8
-      ]
+      ],
+      "name": "Pomegranate House"
     },
     {
       "id": "P1-01",
       "plot": 1,
       "number": 1,
-      "x": -44,
-      "z": 30.7,
+      "x": -44.049898,
+      "z": 30.995012,
       "rotation": -9.6,
       "origin": [
         -49.153357,
         33.885186
-      ]
+      ],
+      "name": "Jasmine House"
     },
     {
       "id": "P1-02",
       "plot": 1,
       "number": 2,
-      "x": -30,
-      "z": 33,
+      "x": -30.049898,
+      "z": 33.295012,
       "rotation": -9.6,
       "origin": [
         -35.153357,
         36.185186
-      ]
+      ],
+      "name": "Lavender House"
     },
     {
       "id": "P1-03",
       "plot": 1,
       "number": 3,
-      "x": -16.5,
-      "z": 35.3,
+      "x": -16.549898,
+      "z": 35.595012,
       "rotation": -9.6,
       "origin": [
         -21.653357,
         38.485186
-      ]
+      ],
+      "name": "Iris House"
     },
     {
       "id": "P2-01",
       "plot": 2,
       "number": 1,
       "x": 36.5,
-      "z": 19,
+      "z": 19.299202,
       "rotation": 0,
       "origin": [
         31.95,
         23.0
-      ]
+      ],
+      "name": "Thyme House"
     },
     {
       "id": "P2-02",
       "plot": 2,
       "number": 2,
       "x": 23.5,
-      "z": 37,
+      "z": 37.299202,
       "rotation": 0,
       "origin": [
         18.95,
         41.0
-      ]
+      ],
+      "name": "Arbutus House"
     }
   ],
-  "roadNote": "Only the public road corridor and the narrow southern connection shown in the source drawings are modelled. Individual 2.7 m parking entrances are concept driveways, not extra streets. Road elevations and driveway grades depend on the provisional terrace levels; they are not a surveyed engineering design."
+  "roadNote": "Only the public road corridor and the narrow southern connection shown in the source drawings are modelled. Individual 2.7 m parking entrances are concept driveways, not extra streets. Road elevations and driveway grades depend on the provisional terrace levels; they are not a surveyed engineering design.",
+  "revision": {
+    "homes": 16,
+    "removedHome": "P4-04",
+    "extraFootprintPerHome": 5.625,
+    "frontExtension": 0.5984042553191489,
+    "basis": "90 m² footprint allowance shared among 16 homes; bedrooms and loft unchanged. Total floor area remains unverified."
+  }
 }

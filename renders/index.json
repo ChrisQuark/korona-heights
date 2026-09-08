@@ -1,7 +1,7 @@
 [
   {
     "src": "renders/01-garden.jpg",
-    "title": "The new Spruce House"
+    "title": "Olive House \u00b7 a sheltered welcome"
   },
   {
     "src": "renders/02-living.jpg",
@@ -46,5 +46,9 @@
   {
     "src": "renders/12-gym.jpg",
     "title": "The garden gym"
+  },
+  {
+    "src": "renders/13-dressing.jpg",
+    "title": "The walk-in wardrobe suite \u00b7 loft plan"
   }
 ]
