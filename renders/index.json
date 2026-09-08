@@ -1,0 +1,50 @@
+[
+  {
+    "src": "renders/01-garden.jpg",
+    "title": "The new Spruce House"
+  },
+  {
+    "src": "renders/02-living.jpg",
+    "title": "Gather by the fire"
+  },
+  {
+    "src": "renders/03-master.jpg",
+    "title": "The glazed loft master suite"
+  },
+  {
+    "src": "renders/04-village.jpg",
+    "title": "A considered village plan"
+  },
+  {
+    "src": "renders/05-bedroom.jpg",
+    "title": "Bedroom 1, rebuilt from the sketch"
+  },
+  {
+    "src": "renders/06-plan.jpg",
+    "title": "The ground-floor arrangement"
+  },
+  {
+    "src": "renders/07-outdoor.jpg",
+    "title": "A kitchen for the garden"
+  },
+  {
+    "src": "renders/08-dining.jpg",
+    "title": "The dining room option"
+  },
+  {
+    "src": "renders/09-library.jpg",
+    "title": "A room for slower mornings"
+  },
+  {
+    "src": "renders/10-night.jpg",
+    "title": "Home after sunset"
+  },
+  {
+    "src": "renders/11-commons.jpg",
+    "title": "The caf\u00e9 garden"
+  },
+  {
+    "src": "renders/12-gym.jpg",
+    "title": "The garden gym"
+  }
+]
