@@ -723,7 +723,7 @@
       "name": "Public road",
       "width": 6,
       "kind": "main",
-      "source": "Binder sheet 2: public road above plots 5–6 and east of plots 5–4, continuing between plots 3–4 and 1–2. Centreline interpreted within the drawn reservation.",
+      "source": "Binder sheet 2: public road above plots 5\u20136 and east of plots 5\u20134, continuing between plots 3\u20134 and 1\u20132. Centreline interpreted within the drawn reservation.",
       "centerline": [
         [
           -80,
@@ -978,11 +978,11 @@
       "plot": 3,
       "number": 1,
       "x": -41.0,
-      "z": -13.500798,
+      "z": -9.500798,
       "rotation": 0,
       "origin": [
         -45.55,
-        -9.8
+        -5.8
       ],
       "name": "Sage House"
     },
@@ -991,11 +991,11 @@
       "plot": 3,
       "number": 2,
       "x": -23.8,
-      "z": -13.500798,
+      "z": -9.500798,
       "rotation": 0,
       "origin": [
         -28.35,
-        -9.8
+        -5.8
       ],
       "name": "Rosemary House"
     },
@@ -1004,11 +1004,11 @@
       "plot": 4,
       "number": 1,
       "x": -2.0,
-      "z": -13.500798,
+      "z": -9.500798,
       "rotation": 0,
       "origin": [
         -6.55,
-        -9.8
+        -5.8
       ],
       "name": "Almond House"
     },
@@ -1016,12 +1016,12 @@
       "id": "P4-02",
       "plot": 4,
       "number": 2,
-      "x": 14.0,
-      "z": -13.500798,
+      "x": 12.0,
+      "z": -9.500798,
       "rotation": 0,
       "origin": [
-        9.45,
-        -9.8
+        7.45,
+        -5.8
       ],
       "name": "Fig House"
     },
@@ -1029,12 +1029,12 @@
       "id": "P4-03",
       "plot": 4,
       "number": 3,
-      "x": 30.0,
-      "z": -13.500798,
+      "x": 26.0,
+      "z": -9.500798,
       "rotation": 0,
       "origin": [
-        25.45,
-        -9.8
+        21.45,
+        -5.8
       ],
       "name": "Pomegranate House"
     },
@@ -1094,11 +1094,11 @@
       "id": "P2-02",
       "plot": 2,
       "number": 2,
-      "x": 23.5,
+      "x": 22.0,
       "z": 37.299202,
       "rotation": 0,
       "origin": [
-        18.95,
+        17.45,
         41.0
       ],
       "name": "Arbutus House"
@@ -1110,6 +1110,7 @@
     "removedHome": "P4-04",
     "extraFootprintPerHome": 5.625,
     "frontExtension": 0.5984042553191489,
-    "basis": "90 m² footprint allowance shared among 16 homes; bedrooms and loft unchanged. Total floor area remains unverified."
+    "basis": "90 m\u00b2 footprint allowance shared among 16 homes; bedrooms and loft unchanged. Total floor area remains unverified.",
+    "gardenRevision": "Middle row moved 4 m forward; private perimeter parcels and rear/side gardens as requested."
   }
 }
