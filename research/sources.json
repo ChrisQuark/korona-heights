@@ -1,0 +1,218 @@
+[
+  {
+    "id": 1,
+    "publisher": "Project location",
+    "title": "Google Maps pin supplied for Korona Heights",
+    "date": "Resolved 12 September 2026",
+    "url": "https://maps.app.goo.gl/mBKqReUNWhWASYjK9",
+    "note": "Pin resolves to 34.745762, 33.207498. A pin is not a cadastral boundary."
+  },
+  {
+    "id": 2,
+    "publisher": "Project drawings",
+    "title": "Binder1 (1).pdf, sheets 1-2; ΧΩΡΟΤΑΞΙΚΟ (1).pdf",
+    "date": "July 2022 / overview undated",
+    "url": null,
+    "note": "Owner-provided private records. H6, plot 6 area, parent parcel, division reference and existing-building annotations; current validity not confirmed."
+  },
+  {
+    "id": 3,
+    "publisher": "Korona Heights",
+    "title": "C04 architectural plans and polygon area audits, both house sizes",
+    "date": "September 2026",
+    "url": "https://chrisquark.github.io/korona-heights/",
+    "note": "Measured concept geometry. Usable area is the project definition, not statutory building or VAT area."
+  },
+  {
+    "id": 4,
+    "publisher": "Department of Lands and Surveys",
+    "title": "Contracts of Sale 2025-2026, Limassol and Cyprus tables",
+    "date": "1 September 2026",
+    "url": "https://portal.dls.moi.gov.cy/wp-content/uploads/2026/02/Contracts-of-Sale-2025-2026.pdf",
+    "note": "January-August contract counts; all property types, not Monagroulli house transactions."
+  },
+  {
+    "id": 5,
+    "publisher": "Central Bank of Cyprus",
+    "title": "Residential Property Price Index, Q1 2026, pp. 2-3, 7-8",
+    "date": "23 June 2026",
+    "url": "https://www.centralbank.cy/images/media/pdf_el/RPPI_2026Q1_GR_FINAL0001.pdf",
+    "note": "House/apartment price indices and purchaser mix. Bank valuation-based, not a village sold-price register."
+  },
+  {
+    "id": 6,
+    "publisher": "Aristo Developers",
+    "title": "Monagroulli Hills development schedule, pp. 1-3",
+    "date": "Undated live PDF; reviewed 12 September 2026",
+    "url": "https://www.aristodevelopers.com/properties/countryside-villas-for-sale-monagroulli-hills-limassol-cyprus/pdf",
+    "note": "Published unit prices, plots and covered areas. Retrieved versions disagree on V17/V18 status; do not use those units to establish availability."
+  },
+  {
+    "id": 7,
+    "publisher": "Chapter One Properties",
+    "title": "Moni Housing Complex, No. 15, reference C5666",
+    "date": "Undated listing; reviewed 12 September 2026",
+    "url": "https://www.chapteroneproperties.com/properties/detached-villa-for-sale-in-moni-limassol-ref-c5666",
+    "note": "17-dwelling development; 92 m² internal plus 14 m² covered veranda, €309,000 + VAT asking."
+  },
+  {
+    "id": 8,
+    "publisher": "BlueSky Houses",
+    "title": "Moni villa, reference 46403",
+    "date": "Undated listing; reviewed 12 September 2026",
+    "url": "https://www.bluesky-houses.com/properties/detached-villa-for-sale-in-moni-limassol-ref-46403",
+    "note": "Two bedrooms, 97 m² covered, 163 m² plot, €350,000 + VAT asking; advertised December 2027 delivery."
+  },
+  {
+    "id": 9,
+    "publisher": "DevelopersCyprus",
+    "title": "Moni two-bedroom villa, ID 14918",
+    "date": "Undated listing; reviewed 12 September 2026",
+    "url": "https://www.developerscyprus.com/properties/2-bedroom-villa-for-sale-moni-limassol-14918/",
+    "note": "€330,000 + VAT, 93 m² internal, 131 m² total; an asking-price listing. May overlap other 11-home Moni listings."
+  },
+  {
+    "id": 10,
+    "publisher": "Crona Group",
+    "title": "Armonia Villas, Moni / Monagroulli",
+    "date": "Undated project page; reviewed 12 September 2026",
+    "url": "https://www.cronagroup.com/projects/armonia-villas",
+    "note": "Six detached villas, developer marked Sold Out. Achieved prices and contract dates not disclosed."
+  },
+  {
+    "id": 11,
+    "publisher": "DOM Real Estate",
+    "title": "Monagroulli resale, ID 201635",
+    "date": "Listing stamp 31 August 2026",
+    "url": "https://dom.com.cy/en/catalog/sale/201635/",
+    "note": "Sold label; displayed €450,000, 150 m² indoor, 190 m² total, 973 m² plot. Displayed price is not independently verified consideration."
+  },
+  {
+    "id": 12,
+    "publisher": "BuySellCyprus",
+    "title": "Properties sold in Monagroulli, house IDs 220643 and 213328",
+    "date": "Undated archive; reviewed 12 September 2026",
+    "url": "https://www.buysellcyprus.com/properties-sold/location-monagroulli-limassol/page-1",
+    "note": "Displayed €400,000 and €273,376 on sold-labelled house records. Dates and signed consideration unavailable; historical context only."
+  },
+  {
+    "id": 13,
+    "publisher": "DevelopersCyprus",
+    "title": "Monagroulli three-bedroom villa, ID 15771",
+    "date": "Reviewed 5 June 2026 on listing",
+    "url": "https://www.developerscyprus.com/properties/3-bedroom-villa-for-sale-monagroulli-limassol-15771/",
+    "note": "€715,000 + VAT asking, 221 m² advertised total, 886 m² plot; premium reference, not a close equivalent."
+  },
+  {
+    "id": 14,
+    "publisher": "Morfosis School",
+    "title": "Morfosis is building the school of the future / new building",
+    "date": "29 October 2025",
+    "url": "https://www.morfosisschool.com/new-building",
+    "note": "School-published 23,000 m² site and 4,000 m² building; no verified campus coordinates or final occupancy approval."
+  },
+  {
+    "id": 15,
+    "publisher": "Cyprus Ministry of Education",
+    "title": "Announcement concerning Private Primary School Morfosis",
+    "date": "1 July 2026",
+    "url": "https://www.gov.cy/paideia-athlitismos-neolaia/anakoinosi-tou-ypan-anaforika-me-to-idiotiko-dimotiko-scholeio-private-primary-school-morfosis/",
+    "note": "Earlier licence revocation announcement, subject to compliance. Read with later school-published Ministry letter."
+  },
+  {
+    "id": 16,
+    "publisher": "Morfosis School",
+    "title": "Official statement concerning Morfosis primary school",
+    "date": "3 July 2026",
+    "url": "https://www.morfosisschool.com/post/официальное-заявление-относительно-начальной-школы-morfosis",
+    "note": "School attributes dispute to temporary Kolossi premises and states new campus opening target of academic year 2027-2028."
+  },
+  {
+    "id": 17,
+    "publisher": "Morfosis School",
+    "title": "Official Decision of the Ministry of Education; reproduced Ministry letter",
+    "date": "Post metadata 27 August 2026; letter 25 August 2026",
+    "url": "https://www.morfosisschool.com/en/post/morfosis-school-official-decision-of-the-ministry-of-education",
+    "note": "Letter inspected: Ministry says it will not proceed with suspension under article 33 following a court decision. It is not a new-campus occupancy certificate."
+  },
+  {
+    "id": 18,
+    "publisher": "Projects.cy",
+    "title": "2025 Nicosia construction costs: case study of a new house",
+    "date": "2025 tenders; article reviewed 12 September 2026",
+    "url": "https://www.projects.cy/blog-2025-nicosia-construction-costs-case-study-new-house",
+    "note": "Five published 180 m² house tenders, €308,000-€340,473. Different structure, district and scope; a cost cross-check only."
+  },
+  {
+    "id": 19,
+    "publisher": "Cyprus Tax Department",
+    "title": "VAT 5% calculation tool for buying/building a house",
+    "date": "6 June 2025",
+    "url": "https://www.gov.cy/mof-tfa/en/documents/vat-5-calculation-tool-for-the-purchase-building-of-a-house/",
+    "note": "Official route for individual buyer VAT calculation; do not infer qualification from usable area."
+  },
+  {
+    "id": 20,
+    "publisher": "PwC Cyprus",
+    "title": "Tax Facts & Figures 2024, reduced VAT on primary residences",
+    "date": "2024",
+    "url": "https://www.pwc.com.cy/en/publications/assets/tff-eng-2024.pdf",
+    "note": "Summary of 130 / 190 m² and €350,000 / €475,000 thresholds; apply current Tax Department calculation and eligibility review."
+  },
+  {
+    "id": 21,
+    "publisher": "Migration Department",
+    "title": "Immigration permits for investors",
+    "date": "Current government guidance; reviewed 12 September 2026",
+    "url": "https://www.gov.cy/mip-md/en/documents/companies-investors-permanent-residence-3/immigration-permits-for-investors/",
+    "note": "Qualifying first-sale home investment begins at €300,000 + VAT; other personal and financial conditions apply."
+  },
+  {
+    "id": 22,
+    "publisher": "Bazaraki",
+    "title": "Monagroulli houses for long-term rent",
+    "date": "Live inventory reviewed 12 September 2026",
+    "url": "https://www.bazaraki.com/real-estate-to-rent/houses/monagroulli/",
+    "note": "Examples advertised at €2,000-€2,750/month for three-bedroom homes; duplicates and differing sizes. Not achieved leases."
+  },
+  {
+    "id": 23,
+    "publisher": "Republic of Cyprus",
+    "title": "Swimming Pools Law 137(I)/2025, articles 2-6",
+    "date": "22 July 2025",
+    "url": "https://www.cylaw.org/nomoi/arith/2025_1_137.pdf",
+    "note": "Current pool classification framework, replacing older law. A pool shared by 16 homes needs project-specific classification and compliance."
+  },
+  {
+    "id": 24,
+    "publisher": "Business in Cyprus",
+    "title": "Building permission",
+    "date": "Current government guidance; reviewed 12 September 2026",
+    "url": "https://www.businessincyprus.gov.cy/doing-business-in-cyprus/start-your-business/building-permission/",
+    "note": "Building permit from district organisation after planning permission; concept drawings are not permits."
+  },
+  {
+    "id": 25,
+    "publisher": "Cyprus Government",
+    "title": "Planning licensing through IPPODAMOS",
+    "date": "Current service page; reviewed 12 September 2026",
+    "url": "https://www.gov.cy/service/poleodomiki-adeiodotisi-2/",
+    "note": "EA15 development and EA2 land division/road procedures; authorised professional submissions."
+  },
+  {
+    "id": 26,
+    "publisher": "Department of Lands and Surveys",
+    "title": "Application forms, sales and contracts search certificates",
+    "date": "Current service inventory; reviewed 12 September 2026",
+    "url": "https://portal.dls.moi.gov.cy/en/all-application-forms/9/",
+    "note": "Route for authorised detailed comparable-sales enquiries; access rights and fees must be checked."
+  },
+  {
+    "id": 27,
+    "publisher": "Project sponsor",
+    "title": "Indicative timber kit and road costs",
+    "date": "Provided in project brief, September 2026",
+    "url": null,
+    "note": "€60,000 per kit and €165,000 for road finishing. No itemised quotation or VAT treatment supplied. All other budget items are analytical allowances."
+  }
+]
