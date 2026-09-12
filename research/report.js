@@ -1,17 +1,21 @@
-import {assumptions,calculate} from './model.js';
-const $=id=>document.getElementById(id),eur=x=>new Intl.NumberFormat('en-IE',{style:'currency',currency:'EUR',maximumFractionDigits:0}).format(x),pct=x=>x===null?'—':(x*100).toFixed(1)+'%';
-const params=new URLSearchParams(location.search);const initial=Object.hasOwn(assumptions.homes,params.get('size'))?params.get('size'):'95';$('size').value=initial;
-function defaults(){const a=assumptions.homes[$('size').value];$('price').value=a.price;$('kit').value=Math.round(a.kit);}
+import {assumptions,calculate} from './model.js?v=land-exchange-r02';
+const $=id=>document.getElementById(id),eur=x=>new Intl.NumberFormat('en-IE',{style:'currency',currency:'EUR',maximumFractionDigits:0}).format(x),pct=x=>x===null?'—':(x*100).toFixed(1)+'%',area=x=>new Intl.NumberFormat('en-IE',{maximumFractionDigits:2}).format(x)+' m²';
+const params=new URLSearchParams(location.search);$('size').value=Object.hasOwn(assumptions.homes,params.get('size'))?params.get('size'):'95';
+const inputs=['price','kit','other','land','infrastructure','amenities','finance','transaction','costChange'];
+function homeDefaults(){const a=assumptions.homes[$('size').value];for(const id of ['price','kit','other','finance'])$(id).value=Math.round(a[id]);}
+function fullDefaults(){for(const id of ['land','infrastructure','amenities','transaction'])$(id).value=assumptions[id];$('costChange').value=0;homeDefaults();}
 function update(){
- const inputs=['price','kit','land','infrastructure','costChange'];const valid=inputs.every(id=>$(id).value.trim()!==''&&$(id).checkValidity());$('input-error').hidden=valid;if(!valid){$('results').innerHTML='';return;}
- const size=$('size').value,v=Object.fromEntries(inputs.map(id=>[id,Number($(id).value)]));
- // Preserve the exact scaled default while displaying whole euros.
- const kit=v.kit===Math.round(assumptions.homes[size].kit)?assumptions.homes[size].kit:v.kit;
- const r=calculate(size,{...v,kit,buildFactor:1+v.costChange/100});
- const fields=[['Sales revenue',eur(r.revenue)],['Total cost including land',eur(r.total)],['Project profit before tax',eur(r.profit),r.profit<0?'negative':'positive'],['Profit as share of sales',pct(r.margin),r.profit<0?'negative':'positive'],['Break-even sale / home',eur(r.breakEven)],['Land budget at 20% margin',eur(r.residualLand20),r.residualLand20<0?'negative':'']];
- $('results').innerHTML='<div class="result-grid">'+fields.map(([label,val,cl=''])=>`<div><small>${label}</small><strong class="${cl}">${val}</strong></div>`).join('')+'</div><p class="assumption-note">A negative land budget means that a 20% margin is not reached even with no land cost. No land valuation or planning approval is implied.</p>';
+ const valid=inputs.every(id=>$(id).value.trim()!==''&&$(id).checkValidity());$('input-error').hidden=valid;
+ if(!valid){$('results').innerHTML='';$('owner-results').innerHTML='';return;}
+ const size=$('size').value,v=Object.fromEntries(inputs.filter(id=>id!=='costChange').map(id=>[id,Number($(id).value)]));
+ if(v.kit===Math.round(assumptions.homes[size].kit))v.kit=assumptions.homes[size].kit;
+ const r=calculate(size,{...v,buildFactor:1+Number($('costChange').value)/100});
+ const fields=[['Receipts: investor’s 8 homes',eur(r.investorRevenue)],['Deliver all 16 homes + shared works',eur(r.deliveryCost)],['Selling costs: investor’s 8 homes',eur(r.salesCosts)],['Total investor outlay',eur(r.investorOutlay)],['Investor profit / loss before tax',eur(r.investorProfit),r.investorProfit<0?'negative':'positive'],['Return on investor outlay',pct(r.returnOnCost),r.investorProfit<0?'negative':'positive'],['Break-even sale price per investor home',eur(r.breakEven)],['Maximum delivery spend to break even',eur(r.maxDeliveryBreakEven)]];
+ const grid=items=>'<div class="result-grid">'+items.map(([label,val,cl=''])=>`<div><small>${label}</small><strong class="${cl}">${val}</strong></div>`).join('')+'</div>';
+ $('results').innerHTML=grid(fields)+`<p class="result-explanation">${r.investorProfit<0?`At these prices, delivery spending must fall by ${eur(r.costReductionToBreakEven)} to break even. Alternatively, test the break-even sale price above with an independent valuer.`:'These assumptions cover the investor’s estimated outlay. Confirm prices, costs and tax treatment before relying on the result.'}</p><p class="assumption-note">A 20% margin on the investor’s sales would require about ${eur(r.priceFor20Margin)} per investor home at these costs, or delivery spending of no more than ${eur(r.maxDelivery20Margin)} at these sale prices. Total outlay is not the peak equity requirement; timing of borrowing and deposits needs a cash-flow plan.</p>`;
+ $('owner-results').innerHTML=grid([['Land contribution reference (non-cash)',eur(r.landContribution)],['Indicative value of landowner’s 8 homes',eur(r.ownerCompletedValue)],['Gross asset-value increase over land reference',eur(r.ownerGrossValueUplift)]])+`<p class="assumption-note">This is an asset-value comparison, not realised profit. Owner selling costs and taxes are excluded. Changing the land reference changes only this comparison: the investor still receives eight homes and pays no cash land price.</p>`;
+ $('density-note').innerHTML=`<b>${size==='95'?'20% density: current, as reported by the sponsor':'30% density: expected, not yet confirmed for the parcel'}</b><br>7,666 m² × ${Math.round(r.density*100)}% = ${area(r.densityAllowance)}. The 16 homes contain ${area(r.usableTotal)} of usable interiors, a difference of ${area(r.arithmeticHeadroom)}. Usable area is not the statutory density area: an architect must reconcile walls, loft exclusions and common buildings before either scheme is approved.`;
  $('back-to-homes').href='../?size='+encodeURIComponent(size);const url=new URL(location.href);url.searchParams.set('size',size);history.replaceState({},'',url);
 }
-$('scenario').addEventListener('submit',e=>e.preventDefault());$('scenario').addEventListener('input',update);$('size').addEventListener('change',()=>{defaults();update();});$('reset').onclick=()=>{$('land').value=assumptions.land;$('infrastructure').value=assumptions.infrastructure;$('costChange').value=0;defaults();update();};defaults();update();
-
+$('scenario').addEventListener('submit',e=>e.preventDefault());$('scenario').addEventListener('input',update);$('size').addEventListener('change',()=>{homeDefaults();update();});$('reset').onclick=()=>{fullDefaults();update();};fullDefaults();update();
 $('contents-toggle').onclick=()=>{const b=$('contents-toggle'),open=b.getAttribute('aria-expanded')!=='true';b.setAttribute('aria-expanded',String(open));b.textContent=open?'Close contents ↑':'Contents ↓';};

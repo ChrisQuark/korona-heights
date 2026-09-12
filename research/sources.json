@@ -214,5 +214,29 @@
     "date": "Provided in project brief, September 2026",
     "url": null,
     "note": "€60,000 per kit and €165,000 for road finishing. No itemised quotation or VAT treatment supplied. All other budget items are analytical allowances."
+  },
+  {
+    "id": 28,
+    "publisher": "Project sponsor",
+    "title": "Land valuation, density area and eight-for-eight proposal",
+    "date": "Clarification supplied 12 September 2026",
+    "url": null,
+    "note": "Reports a third-party current land valuation of €1,200,000 at 20% density on 7,666 m². Expects 30% in a few months. Landowner requests eight completed homes in either case. Valuation report and parcel-specific density-change decision not supplied."
+  },
+  {
+    "id": 29,
+    "publisher": "Department of Town Planning and Housing",
+    "title": "Revision of rural planning zones",
+    "date": "Current programme page; reviewed 12 September 2026",
+    "url": "https://moi.gov.cy/moi/tph/tph.nsf/revisionurplzonesps_el/revisionurplzonesps_el",
+    "note": "Describes the wider revision programme. It does not establish a 30% entitlement or effective date for this parcel."
+  },
+  {
+    "id": 30,
+    "publisher": "Cyprus Tax Department",
+    "title": "VAT circulars register; EE105, exchanges in the construction industry",
+    "date": "EE105 dated 17 March 2006; register reviewed 12 September 2026",
+    "url": "https://www.gov.cy/mof-tax/documents/nomothesia-egkyklioi-kai-synafes-yliko-foroy-prostithemenis-axias-f-p-a/nomothesia-poy-ischyei-apo-1i-fevroyarioy-2002/egkyklioi/",
+    "note": "The official register identifies construction exchanges as a specific VAT topic. Current transaction structure, applicability and supersession require project tax advice; no tax rate or exemption for this exchange is assumed."
   }
 ]
