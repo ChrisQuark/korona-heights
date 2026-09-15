@@ -1,0 +1,1 @@
+import"./modulepreload-polyfill-B5Qt9EMX.js";const e=new URLSearchParams(location.search);["95","143.7"].includes(e.get("size"))?location.replace(new URL(`homes.html${location.search}${location.hash}`,location.href)):e.get("project")==="courtyards"&&location.replace(new URL(`courtyards.html${location.search}`,location.href));
